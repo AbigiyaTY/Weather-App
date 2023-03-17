@@ -13,6 +13,7 @@ const getWeather = async () => {
 
   try {
     const response = await (await fetch(url)).json();
+    console.log(response);
     const {
       name,
       weather,
@@ -21,7 +22,12 @@ const getWeather = async () => {
     } = response;
 
     const { description, icon } = weather[0];
-    const { temp, feels_like } = main;
+    const {
+      temp,
+      feels_like,
+      temp_max,
+      temp_min,
+    } = main;
     const { country } = sys;
 
     const weatherData = `
@@ -29,24 +35,31 @@ const getWeather = async () => {
                     <table class="table table-dark">
                         <thead>
                             <tr>
-                                <th scope="col" class="country">
-                                    ${name},${country} <img class="col-1 img" src='https://openweathermap.org/img/wn/${icon}@2x.png' alt="weather icon" />
+                                <th scope="col">
+                                    <h2>
+                                        ${name},${country} 
+                                </h2>
                                 </th>
                             </tr>
                         </thead>
-                    <tbody>
-                    <tr>
-                        <th>It's ${description}</th>
-                    </tr>
-                    <tr>
-                        <th>It is ${temp} outside.</th>
-                    </tr>
-                    <tr>
-                        <th>You might feel like ${feels_like}.</th>
-                    </tr>
-                    </tbody>
-                </table> 
-            </div>
+                        <tbody>
+                            <tr>
+                                <th scope="col">
+                                    High ${temp_max} &#176; <img class="col-1 img" src='https://openweathermap.org/img/wn/${icon}@2x.png' alt="weather icon" /> Low ${temp_min} &#176;
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>It's ${description}</th>
+                            </tr>
+                            <tr>
+                                <th>It is ${temp} &#176; F</th>
+                            </tr>
+                            <tr>
+                                <th>Feels like ${feels_like} &#176;</th>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
 `;
     display.innerHTML = weatherData;
   } catch (error) {
