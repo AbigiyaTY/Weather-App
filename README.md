@@ -23,7 +23,7 @@
 
 > Weather app is a website to check the weather using country or city name.
 
-![image](https://user-images.githubusercontent.com/98043302/225980223-925e7235-fe12-4a62-a318-46e84de24998.png)
+![image](https://user-images.githubusercontent.com/98043302/226037899-da3f20e2-ae9d-4a74-9a5d-372b6e5e8ae1.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
