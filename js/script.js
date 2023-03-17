@@ -1,3 +1,5 @@
+/* eslint-disable no-console, camelcase, import/no-unresolved */
+
 import API_KEY from './apiKey.js';
 
 const ViewButton = document.getElementById('ViewButton');
@@ -17,7 +19,6 @@ const getWeather = async () => {
       main,
       sys,
     } = response;
-    /* eslint-disable no-console, camelcase */
 
     const { description, icon } = weather[0];
     const { temp, feels_like } = main;
