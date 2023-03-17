@@ -22,8 +22,8 @@
 # 📖 [Weather app] <a name="about-project"></a>
 
 > Weather app is a website to check the weather using country or city name.
-
-![image](https://user-images.githubusercontent.com/98043302/226037899-da3f20e2-ae9d-4a74-9a5d-372b6e5e8ae1.png)
+> 
+![image](https://user-images.githubusercontent.com/98043302/226038695-ad48d9ca-8c2d-4ef4-b72e-18044a62a83c.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
