@@ -25,6 +25,8 @@
 
 > Weather app is a website to check the weather using country or city name.
 
+![image](https://user-images.githubusercontent.com/98043302/225980223-925e7235-fe12-4a62-a318-46e84de24998.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
