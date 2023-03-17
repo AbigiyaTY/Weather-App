@@ -1,10 +1,12 @@
+import API_KEY from './apiKey.js';
+
 const ViewButton = document.getElementById('ViewButton');
 const display = document.getElementById('display');
 
 const getWeather = async () => {
   const input = document.getElementById('input').value;
   const BaseUrl = 'https://api.openweathermap.org/data/2.5/weather?q=';
-  const ApiKey = 'bd6313af60b38f17ee6f21d194219e2f';
+  const ApiKey = API_KEY;
   const url = `${BaseUrl}${input}&units=metric&appid=${ApiKey}`;
 
   try {
