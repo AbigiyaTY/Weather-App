@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://incredible-licorice-be81ff.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +85,7 @@ Install this project with:
 
 You can deploy this project using:
 
-- GitHub page
+- Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +125,7 @@ If you like this project give it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Scrimba](https://www.youtube.com/@Scrimba)
+I would like to thank [openweathermap](https://openweathermap.org/api/) for the free API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
