@@ -9,6 +9,7 @@ body {
   background-image: url('../img/2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #564e75 !important;
 }
 
 header h1 {
