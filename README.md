@@ -86,6 +86,8 @@ Install this project with:
 You can deploy this project using:
 
 - Netlify
+- In the build command while deploying in netlify run this command
+  - cd js && echo -e "const API_KEY = 'user api key';\n\nexport default API_KEY;" > apiKey.js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
